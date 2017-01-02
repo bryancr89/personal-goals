@@ -1,0 +1,21 @@
+#login-page.mdl-card {
+  margin: 0 auto;
+  .mdl-card__actions {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.oauth-container {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: center;
+  .mdl-button {
+    margin-right: 10px;
+    ::last-child {
+      margin-right: 0;
+    }
+  }
+}
